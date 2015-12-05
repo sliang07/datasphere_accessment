@@ -1,4 +1,15 @@
-# datasphere_accessment_p1
+# datasphere_accessment
 
-Created and translated a "Mockup"
-Contains no features yet.
+Pt1 on master branch 
+
+Pt2 on Pt2 branch
+
+Pt2 finished
+
+Geolocation can be blocked by your browser 
+Tested on internet explorer Fully functional
+
+No image src were given within the API 
+Duplicate images used to maintain design
+
+Will hopefully implement bonus within alotted time
