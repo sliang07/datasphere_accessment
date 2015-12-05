@@ -1,0 +1,133 @@
+#container{
+	width: 750px;
+}
+	#main_content{
+		vertical-align: top;
+		text-align: center;
+	}
+	#main_content h3{
+		margin-top: 40px;
+		margin-left: 90px;
+		font-size: 75px;
+		font-weight: normal;
+		color: #4d4d4d;
+		font-family: helvetica;
+		word-spacing: -20px;
+		margin-bottom: -5px;
+	}
+	#main_content p{
+		color: #bfbfbf;
+		font-size: 30px;
+		font-family: helvetica;
+		margin-left: 70px;
+	}
+	.box_of_stuff{
+		width: 688px;
+		height:;
+		margin-left: 20px;
+		border-radius: 25px;
+		border: 1px solid gray;
+		margin-bottom: 60px;
+	}
+		.inside_box_title{
+			width: 700px;
+			padding-left: 25px;
+		}
+			.inside_box_title img{
+				margin-left: 10px;
+			}
+			.inside_box_title img,p{
+				display: inline-block;
+			}
+			.inside_box_title .title_text{
+				margin-left: 15px;
+				font-family: helvetica;
+				font-weight: bold;
+				font-size: 24px;
+				margin-right: 370px;
+			}
+			.inside_box_title .distance{
+				font-size: 26px;
+			}
+		.background_image{
+			margin-left: -1px;
+		}
+		.white_space{
+			position: absolute;
+			margin-top: -125px;
+			margin-left: 23px;
+			width: 192px;
+			height: 192px;
+			background-color: white;
+			padding: 10px;
+			border-radius: 20px;
+			border: 1px solid rgba(0, 0, 0, 0.3);
+		}
+			.picture_icon img{
+				margin-left: -5px;
+				margin-top: -5px;
+				border-radius: 15px;
+				border: 1px solid black;
+			}
+		.box_of_stuff h4{
+			margin-top: 15px;
+			margin-left: 280px;
+			color: #4d4d4d;
+			font-size: 30px;
+			font-family: helvetica;
+			letter-spacing: 1px;
+		}
+			.result_name{
+				margin: 50px 30px;
+			}
+					.blue_box h3{
+						color: white;
+						width: 620px;
+						border-radius: 10px;
+						background-color: #0066ff;
+						padding-bottom: 10px;
+						padding-top: 20px;
+						margin-left: 20px;
+						text-align: center;
+						letter-spacing: 1px;
+						font-size: 48px;
+						font-weight: normal;
+					}
+				.result_name .list_start{
+					padding-top: 20px;
+					width: 625px;
+					border-bottom: 1px solid #b5cccc;
+					margin-top: -40px;
+				}
+					.list{
+						border-bottom: 1px solid #b5cccc;
+					}
+						.list p{
+							color: #4d4d4d;
+							margin-left: 30px;
+							width: 400px;
+							padding-bottom: 20px;
+							font-size: 30px;
+							font-weight: bold;
+							font-family: helvetica;
+						}
+						.list i{
+							margin-top: 10px;
+							float: right;
+							color: #bfbfbf;;
+						}
+				.result_name a{
+					margin-left: 200px;
+					color: #0066ff;
+					font-size: 40px;
+					text-decoration: none;
+					font-weight: bold;
+				}
+				.result_name .number_4{
+					position: absolute;
+					color: white;
+					display: inline;
+					margin-left: -50px;
+					margin-top: 20px;				
+					font-size: 49px;
+				}
