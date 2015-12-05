@@ -1,17 +1,23 @@
+// When page loads, gets user location
 $(document).ready(function(){
 	getLocation();
 })
+
+//Sends coordinates to showPlaces function
 	function getLocation() {
 	    if (navigator.geolocation) {
 	        navigator.geolocation.getCurrentPosition(showPlaces);
 	    }
 	}
 
+
 	function showPlaces(position) {
 		var latitude = position.coords.latitude;
 		var longitude = position.coords.longitude;
 		var url = "http://codingchallenge.datasphere.com:8084/getbusinesses/?location="+latitude+","+longitude+"&pg=1&pz=10&callback=?";
+		//Jquery function used to process and return JSONP
 	    $.getJSON(url, function(result){
+	    	//loops through the jsonp data, in this scenario only 10 results
 		   for(i=0;i<result.businesses.length;i++){
 		   	var pin = '<div class="inside_box_title"> <img src="pictures/pin.png">';
 		   	var location = "<p class='title_text'>" + result.businesses[i].city +"," + result.businesses[i].state + "</p>";
@@ -26,6 +32,7 @@ $(document).ready(function(){
 		   	}
 		   	$("#container").append("<div class='box_of_stuff'>" + pin + location + distance + background_picture + picture_icon + category + buisness_name + "<p class='list_start'></p>");
 
+		   		//Appending Multiple coupons for a single business
 		   		for(k=0;k<coupons.length;k++){
 		   			$(".result_name:last").append('<div class="list"> <p>'+ coupons[k] + '</p> <i class="fa fa-arrow-right fa-5x"></i> </div>')
 		   		}
